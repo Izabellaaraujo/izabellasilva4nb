@@ -1,12 +1,12 @@
-# Documentação do Projeto: Sistema de Gerenciamento de Tarefas
+# Documentação do Projeto: Separação de tarefas para evitar o Burnout no ambiente corporativo.
 
 ## 1. Visão Geral
 
 ### 1.1 Descrição do Projeto
-O Sistema de Gerenciamento de Tarefas é uma aplicação web que permite aos usuários criar, gerenciar e acompanhar suas tarefas e atividades diárias. O objetivo é ajudar os usuários a se organizarem melhor e a aumentar a produtividade.
+O projeto tem o objetivo de organizar o pessoal e o corporativo do usuário, trazendo mais leveza ao ambiente de trabalho, impedindo um Burnout. É uma aplicação Web na qual aplicaremos uma separação de tarefas para o usuário criar e administrar seus hábitos e também visualizar sua evolução no processo.
 
 ### 1.2 Escopo do Projeto
-O projeto inclui o desenvolvimento de uma aplicação web que permita a criação e gestão de tarefas, categorização de tarefas, e acompanhamento do progresso. O sistema deve ser acessível via navegador web e deve permitir a autenticação de usuários. Não está incluído o suporte para aplicativos móveis ou integração com outros sistemas externos nesta fase do projeto.
+O projeto inclui o desenvolvimento de uma aplicação web que permita a criação, edição e acompanhamento do progresso dos hábitos escolhidos pelo usuário. O sistema deve ser acessível via navegador web e deve permitir a autenticação de usuários.
 
 ## 2. Requisitos Funcionais
 
@@ -15,13 +15,12 @@ O projeto inclui o desenvolvimento de uma aplicação web que permita a criaçã
 - **Critérios de Aceitação**: 
   - O usuário deve ser capaz de criar uma conta com um e-mail e senha.
   - O sistema deve autenticar o usuário com base nas credenciais fornecidas.
-  - O usuário deve receber um e-mail de confirmação após o registro.
 - **Prioridade**: Alta
 
 ### 2.2 Requisito Funcional 2
 - **Descrição**: O sistema deve permitir a criação, edição e exclusão de tarefas.
 - **Critérios de Aceitação**:
-  - O usuário deve ser capaz de adicionar uma nova tarefa com título, descrição e data de vencimento.
+  - O usuário deve ser capaz de adicionar uma nova tarefa com título e descrição.
   - O usuário deve poder editar os detalhes de uma tarefa existente.
   - O usuário deve poder excluir uma tarefa.
 - **Prioridade**: Alta
@@ -30,36 +29,34 @@ O projeto inclui o desenvolvimento de uma aplicação web que permita a criaçã
 - **Descrição**: O sistema deve permitir que os usuários visualizem suas tarefas em uma lista.
 - **Critérios de Aceitação**:
   - O usuário deve poder ver uma lista de todas as tarefas em uma página.
-  - A lista deve mostrar título, descrição e data de vencimento.
-  - O usuário deve poder filtrar e ordenar a lista por data de vencimento e prioridade.
+  - A lista deve mostrar título e descrição.
 - **Prioridade**: Média
 
 ## 3. Requisitos Não Funcionais
 
 ### 3.1 Requisito Não Funcional 1
-- **Descrição**: A aplicação deve ter um tempo de resposta de menos de 2 segundos para carregar páginas.
+- **Descrição**: A aplicação deve ter um tempo de resposta de menos de 5 segundos para carregar páginas.
 - **Critérios de Aceitação**: 
-  - A página principal deve carregar em menos de 2 segundos em uma conexão de internet padrão.
+  - A página principal deve carregar em menos de 5 segundos em uma conexão de internet padrão.
 - **Prioridade**: Alta
 
 ### 3.2 Requisito Não Funcional 2
 - **Descrição**: O sistema deve ser seguro e proteger as informações dos usuários.
 - **Critérios de Aceitação**:
   - As senhas devem ser armazenadas de forma criptografada.
-  - O sistema deve usar HTTPS para comunicação segura.
-  - O sistema deve estar protegido contra ataques comuns, como SQL Injection e Cross-Site Scripting (XSS).
+  - O sistema deve estar protegido contra ataques comuns.
 - **Prioridade**: Alta
 
 ### 3.3 Requisito Não Funcional 3
 - **Descrição**: A aplicação deve ser acessível via navegadores modernos (Chrome, Firefox, Edge).
 - **Critérios de Aceitação**:
-  - O sistema deve ser testado em navegadores modernos e garantir uma boa experiência de usuário.
+  - O sistema deve ser testado em navegadores e garantir uma boa experiência de usuário.
 - **Prioridade**: Média
 
 ## 4. Restrições
 
 ### 4.1 Restrições Técnicas
-- O sistema deve ser desenvolvido usando tecnologias web como HTML, CSS, JavaScript e um framework de backend como Node.js ou Django.
+- O sistema deve ser desenvolvido usando tecnologias web como HTML, CSS, JavaScript e um framework de backend.
 - Não será utilizado armazenamento de dados local; todos os dados serão armazenados em um banco de dados remoto.
 
 ### 4.2 Restrições de Tempo
@@ -78,17 +75,19 @@ O projeto inclui o desenvolvimento de uma aplicação web que permita a criaçã
 ## 6. Glossário
 
 ### 6.1 Tarefa
-- **Definição**: Uma unidade de trabalho que um usuário precisa realizar, incluindo um título, descrição e data de vencimento.
+- **Definição**: Uma unidade de trabalho que um usuário precisa realizar, incluindo um título e descrição.
 
 ### 6.2 Autenticação
 - **Definição**: O processo de verificar a identidade de um usuário para garantir que apenas usuários autorizados acessem o sistema.
 
 ## 7. Referências
 
-### 7.1 Documento de Requisitos
-- [Documento de Requisitos do Projeto](https://example.com/documento-requisitos)
+### 7.1 Estudo do tema
+- [Orientação sobre Saúde mental](https://www.unimed.coop.br/viver-bem/saude-em-pauta/)
 
-### 7.2 Guia de Estilo
-- [Guia de Estilo da Interface](https://example.com/guia-estilo)
+### 7.2 Reforço do tema
+- [Reforço sobre o tema](http://gov.br/ebserh/pt-br/comunicacao/noticias/a-importancia-do-cuidado-com-a-saude-mental-no-)
 
-<!-- Adicione mais referências conforme necessário -->
+### 7.3 Documento de Requisitos
+- [Documentação de requisitos](https://afonsolelis.github.io/backend/1_analise_requisitos_viabilidade/)
+
