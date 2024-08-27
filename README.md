@@ -1,4 +1,4 @@
-# Documentação do Projeto: Separação de tarefas para evitar o Burnout no ambiente corporativo.
+# Separação de tarefas para evitar o Burnout no ambiente corporativo.
 
 ## 1. Visão Geral
 
