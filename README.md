@@ -50,7 +50,7 @@ O projeto inclui o desenvolvimento de uma aplicação web que permita a criaçã
 ### 3.3 Requisito Não Funcional 3
 - **Descrição**: A aplicação deve ser acessível via navegadores modernos (Chrome, Firefox, Edge).
 - **Critérios de Aceitação**:
-  - O sistema deve ser testado em navegadores e garantir uma boa experiência de usuário.
+  - O sistema deve ser testado em navegadores e garantir uma boa experiência do usuário.
 - **Prioridade**: Média
 
 ## 4. Restrições
@@ -75,7 +75,7 @@ O projeto inclui o desenvolvimento de uma aplicação web que permita a criaçã
 ## 6. Glossário
 
 ### 6.1 Tarefa
-- **Definição**: Uma unidade de trabalho que um usuário precisa realizar, incluindo um título e descrição.
+- **Definição**: Uma unidade de trabalho que o usuário precisa realizar, incluindo um título e descrição.
 
 ### 6.2 Autenticação
 - **Definição**: O processo de verificar a identidade de um usuário para garantir que apenas usuários autorizados acessem o sistema.
