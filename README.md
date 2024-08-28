@@ -78,7 +78,7 @@ O projeto inclui o desenvolvimento de uma aplicação web que permita a criaçã
 - **Definição**: Uma unidade de trabalho que o usuário precisa realizar, incluindo um título e descrição.
 
 ### 6.2 Autenticação
-- **Definição**: O processo de verificar a identidade de um usuário para garantir que apenas usuários autorizados acessem o sistema.
+- **Definição**: O processo de verificar a identidade para garantir que apenas usuários autorizados acessem o sistema.
 
 ## 7. Referências
 
