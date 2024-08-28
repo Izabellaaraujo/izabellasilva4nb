@@ -41,7 +41,7 @@ O projeto inclui o desenvolvimento de uma aplicação web que permita a criaçã
 - **Prioridade**: Alta
 
 ### 3.2 Requisito Não Funcional 2
-- **Descrição**: O sistema deve ser seguro e proteger as informações dos usuários.
+- **Descrição**: O sistema deve ser seguro afim de proteger as informações dos usuários.
 - **Critérios de Aceitação**:
   - As senhas devem ser armazenadas de forma criptografada.
   - O sistema deve estar protegido contra ataques comuns.
