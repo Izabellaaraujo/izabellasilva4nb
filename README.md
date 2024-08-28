@@ -21,8 +21,8 @@ O projeto inclui o desenvolvimento de uma aplicação web que permita a criaçã
 - **Descrição**: O sistema deve permitir a criação, edição e exclusão de tarefas.
 - **Critérios de Aceitação**:
   - O usuário deve ser capaz de adicionar uma nova tarefa com título e descrição.
-  - O usuário deve poder editar os detalhes de uma tarefa existente.
-  - O usuário deve poder excluir uma tarefa.
+  - O usuário tem que poder editar os detalhes de uma tarefa existente.
+  - O usuário deve permitir excluir uma tarefa ou mais.
 - **Prioridade**: Alta
 
 ### 2.3 Requisito Funcional 3
