@@ -3,7 +3,7 @@
 ## 1. Visão Geral
 
 ### 1.1 Descrição do Projeto
-O projeto tem o objetivo de organizar o pessoal e o corporativo do usuário, trazendo mais leveza ao ambiente de trabalho, impedindo um Burnout. Com foco em hábitos saúdaveis, onde o usuário visualizará como metas a serem concluídas. É uma aplicação Web na qual aplicaremos uma separação de tarefas para o usuário criar e administrar seus hábitos e também visualizar sua evolução no processo.
+O projeto tem o objetivo de organizar o pessoal e o corporativo do usuário, trazendo mais leveza ao ambiente de trabalho, impedindo um Burnout. Com foco em hábitos saúdaveis, onde o usuário visualizará como metas a serem concluídas. É uma aplicação Web na qual faremos uma separação de tarefas para o usuário criar e administrar seus hábitos e também visualizar sua evolução no processo.
 
 ### 1.2 Escopo do Projeto
 O projeto inclui o desenvolvimento de uma aplicação web que permita a criação, edição e acompanhamento do progresso dos hábitos escolhidos pelo usuário. O sistema deve ser acessível via navegador web e deve permitir a autenticação de usuários.
