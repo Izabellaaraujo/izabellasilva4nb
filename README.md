@@ -35,7 +35,7 @@ O projeto inclui o desenvolvimento de uma aplicação web que permita a criaçã
 ## 3. Requisitos Não Funcionais
 
 ### 3.1 Requisito Não Funcional 1
-- **Descrição**: A aplicação deve ter um tempo de resposta de menos de 5 segundos para carregar páginas.
+- **Descrição**: A aplicação deve ter um tempo de resposta.
 - **Critérios de Aceitação**: 
   - A página principal deve carregar em menos de 5 segundos em uma conexão de internet padrão.
 - **Prioridade**: Alta
